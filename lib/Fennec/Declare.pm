@@ -2,7 +2,7 @@ package Fennec::Declare;
 use strict;
 use warnings;
 
-our $VERSION = "1.000_1";
+our $VERSION = "1.000";
 
 use base 'Fennec';
 require Fennec::Declare::Magic;
