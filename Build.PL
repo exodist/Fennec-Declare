@@ -10,8 +10,9 @@ my $build = Module::Build->new(
     create_readme => 1,
     requires => {
         'Fennec' => '1.000',
-        'Exporter::Declare' => '0.103',
-        'Devel::Declare::Parser' => '0.017',
+        'Exporter::Declare'              => '0.107',
+        'Exporter::Declare::Magic'       => '0.107',
+        'Devel::Declare::Parser'         => '0.017',
         'Devel::Declare::Parser::Fennec' => '0.004',
     },
     meta_merge => {

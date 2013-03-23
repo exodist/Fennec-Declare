@@ -2,18 +2,18 @@ package Fennec::Declare;
 use strict;
 use warnings;
 
-our $VERSION = "1.000";
+our $VERSION = "1.001";
 
 use base 'Fennec';
 require Fennec::Declare::Magic;
 
 sub defaults {
-    my $class = shift;
+    my $class    = shift;
     my %defaults = $class->SUPER::defaults();
 
-    push @{ $defaults{'utils'} } => 'Fennec::Declare::Magic';
+    push @{$defaults{'utils'}} => 'Fennec::Declare::Magic';
 
-    return( %defaults );
+    return (%defaults);
 }
 
 1;
