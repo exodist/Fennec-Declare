@@ -35,7 +35,7 @@ syntax used to define tests with Fennec.
 
 =item no more semicolon to end the test sub.
 
-=item overrides decribe, cases, case, it, tests, before_* after_*
+=item overrides describe, cases, case, it, tests, before_* after_*
 
     describe name { ... }
 
