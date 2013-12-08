@@ -7,7 +7,7 @@ DESCRIPTION
 
     No more name => sub
     no more semicolon to end the test sub.
-    overrides decribe, cases, case, it, tests, before_* after_*
+    overrides describe, cases, case, it, tests, before_* after_*
             describe name { ... }
 
         instead of
