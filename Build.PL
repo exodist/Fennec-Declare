@@ -20,7 +20,7 @@ my $build = Module::Build->new(
         resources => {
             repository  => 'http://github.com/exodist/Fennec-Declare',
             bugtracker  => 'http://github.com/exodist/Fennec-Declare/issues',
-            homepage    => 'http://open-exodus.net/projects/Fennec-Declare'
+            homepage    => 'http://blogs.perl.org/users/chad_exodist_granum/'
         },
     }
 );
