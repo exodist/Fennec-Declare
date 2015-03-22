@@ -4,10 +4,11 @@ use warnings;
 use Module::Build;
 
 my $build = Module::Build->new(
-    module_name => 'Fennec::Declare',
-    license     => 'perl',
-    dist_author => 'Chad Granum <exodist7@gmail.com>',
-    create_readme => 1,
+    module_name    => 'Fennec::Declare',
+    license        => 'perl',
+    dist_author    => 'Chad Granum <exodist7@gmail.com>',
+    create_readme  => 1,
+    create_license => 1,
     requires => {
         'Fennec' => '1.012',
         'Exporter::Declare'              => '0.107',
