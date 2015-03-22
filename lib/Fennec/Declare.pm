@@ -94,8 +94,13 @@ Chad Granum L<exodist7@gmail.com>
 
 Copyright (C) 2011 Chad Granum
 
-Fennec-Declare is free software; Standard perl licence.
+=head1 LICENSE
 
-Fennec-Declare is distributed in the hope that it will be useful, but WITHOUT
-ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE. See the license for more details.
+Fennec-Declare is free software; you can redistribute it
+and/or modify it under the terms as Perl 5.10.0. For more
+details, see the full text of the license in the file LICENSE.
+
+Fennec-Declare is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the license for
+more details.
