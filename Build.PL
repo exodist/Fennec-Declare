@@ -9,6 +9,9 @@ my $build = Module::Build->new(
     dist_author    => 'Chad Granum <exodist7@gmail.com>',
     create_readme  => 1,
     create_license => 1,
+    configure_requires => {
+        'Module::Build' => '0.31',
+    },
     requires => {
         'Fennec' => '1.012',
         'Exporter::Declare'              => '0.107',
