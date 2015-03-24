@@ -18,7 +18,7 @@ my $build = Module::Build->new(
         'Exporter::Declare::Magic'       => '0.107',
         'Devel::Declare::Parser'         => '0.017',
         'Devel::Declare::Parser::Fennec' => '0.004',
-        'perl'                           => '5.10.0',
+        'perl'                           => '5.8.0',
     },
     meta_merge => {
         resources => {
