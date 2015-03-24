@@ -22,9 +22,9 @@ my $build = Module::Build->new(
     },
     meta_merge => {
         resources => {
-            repository  => 'http://github.com/exodist/Fennec-Declare',
-            bugtracker  => 'http://github.com/exodist/Fennec-Declare/issues',
-            homepage    => 'http://blogs.perl.org/users/chad_exodist_granum/'
+            repository  => 'https://github.com/exodist/Fennec-Declare',
+            bugtracker  => 'https://github.com/exodist/Fennec-Declare/issues',
+            homepage    => 'https://github.com/exodist/Fennec-Declare',
         },
     }
 );
